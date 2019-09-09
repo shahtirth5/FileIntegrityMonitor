@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.login.LoginPageController">
+   <children>
+      <JFXButton fx:id="btnLogin" layoutX="153.0" layoutY="241.0" onAction="#btnLoginClicked" prefHeight="47.0" prefWidth="292.0" style="-fx-background-color: #f20e3c;" text="Login" textFill="WHITE" AnchorPane.leftAnchor="153.0" AnchorPane.rightAnchor="155.0" AnchorPane.topAnchor="241.0">
+         <font>
+            <Font name="Lucida Console" size="17.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField fx:id="tfName" focusColor="#405aa8" labelFloat="true" layoutX="154.0" layoutY="59.0" maxWidth="292.0" minWidth="267.0" prefHeight="40.0" prefWidth="292.0" promptText="Name" AnchorPane.leftAnchor="154.0" AnchorPane.rightAnchor="154.0" AnchorPane.topAnchor="59.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXTextField>
+      <JFXPasswordField fx:id="tfPassword" focusColor="#405aa8" labelFloat="true" layoutX="154.0" layoutY="151.0" maxWidth="292.0" minWidth="210.0" prefHeight="40.0" prefWidth="292.0" promptText="Password" AnchorPane.leftAnchor="154.0" AnchorPane.rightAnchor="154.0" AnchorPane.topAnchor="151.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXPasswordField>
+   </children>
+</AnchorPane>
